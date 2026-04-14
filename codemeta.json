@@ -1,0 +1,106 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "SoftwareSourceCode",
+  "name": "BOSSA: Binary Object environment-Sensitive Sampling Algorithm",
+  "version": "1.0.0",
+  "description": "BOSSA generates samples of ZAMS binaries (or higher-order multiples) consistent with the metallicity- and star-formation-rate-dependent IMF, the cosmic star-formation history, and the correlated orbital parameter distributions. Although its output is written with COMPAS in mind, it does not depend on it.",
+  "codeRepository": "https://github.com/LucasMDeSa/BOSSA",
+  "url": "https://lucasmdesa.github.io/BOSSA/",
+  "programmingLanguage": [
+    {
+      "@type": "ComputerLanguage",
+      "name": "Python",
+      "version": "3.12"
+    }
+  ],
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Lucas M.",
+      "familyName": "de Sá"
+    },
+    {
+      "@type": "Person",
+      "givenName": "A.",
+      "familyName": "Bernardo"
+    },
+    {
+      "@type": "Person",
+      "givenName": "L. S.",
+      "familyName": "Rocha"
+    },
+    {
+      "@type": "Person",
+      "givenName": "R. R. A.",
+      "familyName": "Bachega"
+    },
+    {
+      "@type": "Person",
+      "givenName": "J. E.",
+      "familyName": "Horvath"
+    }
+  ],
+  "keywords": [
+    "astronomy",
+    "astrophysics",
+    "binary stars",
+    "initial mass function",
+    "star formation",
+    "gravitational waves",
+    "COMPAS",
+    "population synthesis",
+    "Python"
+  ],
+  "softwareRequirements": [
+    "Python >= 3.12",
+    "numpy",
+    "scipy",
+    "pandas",
+    "astropy",
+    "matplotlib"
+  ],
+  "relatedLink": [
+    "https://zenodo.org/records/13909307",
+    "https://arxiv.org/abs/2410.01451"
+  ],
+  "referencePublication": {
+    "@type": "ScholarlyArticle",
+    "name": "BOSSA: a binary population synthesis tool for gravitational-wave source modelling",
+    "author": [
+      {
+        "@type": "Person",
+        "givenName": "Lucas M.",
+        "familyName": "de Sá"
+      },
+      {
+        "@type": "Person",
+        "givenName": "A.",
+        "familyName": "Bernardo"
+      },
+      {
+        "@type": "Person",
+        "givenName": "L. S.",
+        "familyName": "Rocha"
+      },
+      {
+        "@type": "Person",
+        "givenName": "R. R. A.",
+        "familyName": "Bachega"
+      },
+      {
+        "@type": "Person",
+        "givenName": "J. E.",
+        "familyName": "Horvath"
+      }
+    ],
+    "datePublished": "2024",
+    "isPartOf": {
+      "@type": "PublicationVolume",
+      "name": "Monthly Notices of the Royal Astronomical Society",
+      "volumeNumber": "535",
+      "issueNumber": "3"
+    },
+    "pageStart": "2019",
+    "url": "https://academic.oup.com/mnras/article/535/3/2019/7825861"
+  }
+}

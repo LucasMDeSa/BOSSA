@@ -1,0 +1,57 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "BOSSA: Binary Object environment-Sensitive Sampling Algorithm"
+version: 1.0.0
+abstract: >-
+  BOSSA generates samples of ZAMS binaries (or higher-order multiples)
+  consistent with the metallicity- and star-formation-rate-dependent IMF,
+  the cosmic star-formation history, and the correlated orbital parameter
+  distributions. Although its output is written with COMPAS in mind, it
+  does not depend on it.
+authors:
+  - family-names: "de Sá"
+    given-names: "Lucas M."
+    alias: LucasMDeSa
+  - family-names: "Bernardo"
+    given-names: "A."
+  - family-names: "Rocha"
+    given-names: "L. S."
+  - family-names: "Bachega"
+    given-names: "R. R. A."
+  - family-names: "Horvath"
+    given-names: "J. E."
+repository-code: "https://github.com/LucasMDeSa/BOSSA"
+url: "https://lucasmdesa.github.io/BOSSA/"
+keywords:
+  - astronomy
+  - astrophysics
+  - binary stars
+  - initial mass function
+  - star formation
+  - gravitational waves
+  - COMPAS
+  - population synthesis
+  - Python
+preferred-citation:
+  type: article
+  title: >-
+    BOSSA: a binary population synthesis tool for gravitational-wave
+    source modelling
+  authors:
+    - family-names: "de Sá"
+      given-names: "Lucas M."
+    - family-names: "Bernardo"
+      given-names: "A."
+    - family-names: "Rocha"
+      given-names: "L. S."
+    - family-names: "Bachega"
+      given-names: "R. R. A."
+    - family-names: "Horvath"
+      given-names: "J. E."
+  journal: "Monthly Notices of the Royal Astronomical Society"
+  volume: 535
+  issue: 3
+  start: 2019
+  year: 2024
+  url: "https://academic.oup.com/mnras/article/535/3/2019/7825861"
